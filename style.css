@@ -1,0 +1,215 @@
+.navbar brand{
+    text-shadow: yellow;
+    text-align: center;
+    font-size: larger;
+    }
+.home_css {
+    position: relative;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    z-index: 2;
+    background-color: darkgray;
+}
+
+.navbar-link{
+    font-weight: 600;
+}
+
+.body_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.home_css h1, .home_css p {
+    z-index: 2;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border: 3px solid white;
+}
+
+/* Dark overlay to make text readable */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.menu-container-wrapper {
+    position: relative;
+}
+
+.menu-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: darkgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.menu-container .card {
+    flex: 0 0 auto;
+    width: 290px; /* Adjust as needed */
+    background-color:peachpuff;
+    margin-right: 15px;
+    border-radius: 25px;
+    box-shadow: rgba(14, 13, 13, 0.24) 0px 3px 8px;
+    border: 7px solid white
+}
+
+.card-img-top{
+    width: 276px;
+    height: 280px;
+    border-radius: 19px 19px 0 0;
+}
+
+.card-title{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-text{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-price{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_about{
+    display: flex;
+    flex-direction: row;
+    width: 97%; /* Adjust as needed */
+    align-items: right;
+    justify-content:left;
+    background-color: darkgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about_paragraph{
+    width: 50%;
+    padding: 20px;
+    line-height: 3;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: white;
+}
+
+.about_image{
+    width: 50%;
+    padding: 20px;
+}
+
+.about_image img{
+    width: 100%;
+    height:400px; /* Maintain aspect ratio */
+    max-width: 600px; /* Maximum width for the image */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 5px solid white;
+}
+
+.contact_section{
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.contact_btn{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: right !important;
+}
+
+.gallery_section{
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gallery_card{
+    border: 5px solid white;
+    margin: 10px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.Sectional_headings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.gallery_card img{
+    width: 500px;
+}
+
+.footer_section{
+    background-color: black;
+}
+
+.footer_content{
+    color: aliceblue;
+}

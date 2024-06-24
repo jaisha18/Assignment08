@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kababjees Restaurant</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <i><b><a class="navbar-brand" href"#">KABABJEES</a></b></i>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link navbar-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-link" href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section with Video Background -->
+    <div class="body_section">
+    <div class="home_css" id="home">
+      <div class="video-overlay">
+      <video class="video-background" autoplay muted loop>
+        <source src="videoplayback.mp4" type="video/mp4" />
+      </video>
+    </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menu_section" id="menu">
+      <h1 class="Sectional_headings">OUR MENU</h1>
+      <div class="menu-container-wrapper">
+        <div class="menu-container">
+          <div class="card">
+            <img src="https://order.kababjees.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1677314087-IMG_0715.jpg&w=640&q=75" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Spicy Mexican Wings</h5>
+              <p class="card-text">Mouth watering fried wings tossed in sweet and tangy Mexican sauce.</p>
+              <h2 class="card-price">Rs: 999</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://order.kababjees.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1677312495-Finger%20Fish.jpg&w=640&q=75" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Finger Fish</h5>
+              <p class="card-text">Boneless fish fillet crumb coated and deep fried to perfection. Served with fries and Tatar sauce.</p>
+              <h2 class="card-price">Rs: 1350</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://order.kababjees.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1677315252-Chicken%20Corn%20Soup.jpg&w=640&q=75" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Chicken Corn Soup</h5>
+              <p class="card-text">Savor comforting warmth of our pure chicken stock, meticulously simmered to perfection.</p>
+              <h2 class="card-price">Rs: 425</h2>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://order.kababjees.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1677314087-IMG_0715.jpg&w=640&q=75" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Spicy Mexican Wings</h5>
+              <p class="card-text">Mouth watering fried wings tossed in sweet and tangy Mexican sauce.</p>
+              <h2 class="card-price">Rs: 999</h2>
+            </div>
+          </div>
+          <!-- Add more cards as needed -->
+        </div>
+      </div>
+    </div>
+    
+    <!-- About Section -->
+    <div id="about" >
+      <h1 class="Sectional_headings">ABOUT US</h1>
+      <div class="card_about">
+        <div class="about_paragraph">
+      <p>
+        We welcome you to explore our taste of the world, in continental and
+        Chinese delights and that's even before you get to the variety and
+        excellence, of our barbecue grill. With warmth service rarely
+        experienced, it is a perfect place of rejoice with family, to soak in
+        the relaxing decor and with deep desire to revisit for once, in never
+        enough! Now with our network of four branches across the city of lights,
+        it is possible to experience the magic, whilst collect the best of
+        memories much more close to home. Now you can have the goodness of
+        Kababjees delivered at home by just ringing us a bell. Call 111-666-111
+        for more information.
+      </p>
+    </div>
+        <div class="about_image">
+          <img
+            src="https://kababjees.com/images/highway%20pic1.jpg"
+            alt="About Us"
+          />
+        </div>
+      </div>
+      </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact">
+      <h1 class="Sectional_headings">CONTACT US</h1>
+      <!-- <p>Contact details...</p> -->
+      <form class="contact_section">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            placeholder="Enter your message"
+          ></textarea>
+        </div>
+        <div class="contact_btn">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Gallery Section -->
+    <div id="gallery" >
+      <h1 class="Sectional_headings">GALLERY</h1>
+      <div class="gallery_section">
+        <div class="gallery_card">
+          <img
+            src="https://kababjees.com/images/2nd%20page%20pic%201.jpg"
+            class="img-fluid"
+            alt="Gallery Image 1"
+          />
+        </div>
+        <div class="gallery_card">
+          <img
+            src="https://kababjees.com/images/2nd%20page%20pic%207.jpg"
+            class="img-fluid"
+            alt="Gallery Image 2"
+          />
+        </div>
+        <div class="gallery_card">
+          <img
+            src="https://kababjees.com/images/2nd%20page%20pic%204.jpg"
+            class="img-fluid"
+            alt="Gallery Image 3"
+          />
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Footer -->
+     <div class="footer_section">
+    <footer class="bg-dark text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0 footer_content">
+            <h5 class="text-uppercase">Kababjees Restaurant</h5>
+            <p>We welcome you to explore our taste of the world, in continental and chinese delights and that's even before you get to the variety and excellence, of our barbecue grill.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer_content">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#home" class="footer_content">Home</a>
+              </li>
+              <li>
+                <a href="#menu" class="footer_content">Menu</a>
+              </li>
+              <li>
+                <a href="#about" class="footer_content">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer_content">Contact</a>
+              </li>
+              <li>
+                <a href="#gallery" class="footer_content">Gallery</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer_content">
+            <h5 class="text-uppercase">Follow Us</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  class="footer_content"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com"
+                  class="footer_content"
+                  target="_blank"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  class="footer_content"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com"
+                  class="footer_content"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3 bg-dark footer_content">© 2023 Kababjees Restaurant</div>
+    </footer>
+  </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </div>
+  </body>
+</html>
+
